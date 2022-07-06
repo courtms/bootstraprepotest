@@ -1,0 +1,71 @@
+table {
+    text-align: center;
+    border: 1px solid black;
+    width: 1000px;
+}
+
+th {
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+}
+
+tr {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+}
+
+#submitbutton {
+    margin-left: 80px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #green-block {
+    background-color: green; 
+    height: 100px;
+  }
+
+  #long-red-block {
+    background-color: rgb(255, 0, 0); 
+    height: 100px;
+  }
+
+  #yellow-block {
+    background-color: rgb(242, 255, 0); 
+    height: 100%;
+  }
+
+  #red-block {
+    background-color: red; 
+    height: 100%;
+  }
+
+  #blue-background {
+    background-color: rgb(146, 169, 243); 
+    height:auto; 
+  }
+
+  #row {
+    height: 100%;
+  }
